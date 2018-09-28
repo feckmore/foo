@@ -1,0 +1,12 @@
+[
+  {
+    "type": "image_banner",
+    "data": {
+      "aspectWidth": "1440",
+      "aspectHeight": "416",
+      "smallImageLeft": "-450px",
+      "image_url": "{{.S3Bucket}}/images/top/top-insufflation.jpg",
+      "image_alt": "Insufflator"
+    }
+  }
+]
