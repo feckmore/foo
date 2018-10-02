@@ -29,11 +29,7 @@
           "data": {
             "header": "Two",
             "text": "Second component text here",
-            "text_x": "center",
-            "read_more": {
-              "router_link": "/read-more-router-link",
-              "text": "Read more"
-            }
+            "text_x": "center"
           }
         }
       ]
