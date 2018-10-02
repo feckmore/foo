@@ -1,12 +1,41 @@
 [
   {
-    "type": "image_banner",
+    "id": "1",
+    "title": "Github Service | Arthrex",
+    "description": "A service for using github as a CMS repo.",
+    "rows": [
+      
+[
+  {
+    "type": "row_config",
+    "containerClasses": [],
+    "rowClasses": []
+  },
+  {
+    "type": "text",
+    "classes": ["col-md-6", "col-12"],
     "data": {
-      "aspectWidth": "1440",
-      "aspectHeight": "416",
-      "smallImageLeft": "-450px",
-      "image_url": "{{.S3Bucket}}/images/top/top-insufflation.jpg",
-      "image_alt": "Insufflator"
+      "header": "One",
+      "text": "First componenet text here",
+      "text_x": "center",
+      "read_more": {
+        "router_link": "/read-more-router-link",
+        "text": "Read more"
+      }
+    }
+  },
+  {
+    "type": "text",
+    "classes": ["col-md-6", "col-12"],
+    "data": {
+      "header": "Two",
+      "text": "Second component text here",
+      "text_x": "center",
+      "read_more": {
+        "router_link": "/read-more-router-link",
+        "text": "Read more"
+      }
     }
   }
 ]
+    ]
