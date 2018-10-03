@@ -1,1 +1,38 @@
-{"Name":"","id":"1","title":"Github Service | Arthrex","description":"A service for using github as a CMS repo.","rows":[[{"classes":null,"type":"row_config","data":null,"fluid":false,"containerClasses":[]},{"classes":["col-md-6","col-12"],"type":"text","data":{"header":"One","read_more":{"router_link":"/read-more-router-link","text":"Read more"},"text":"First componenet text here","text_x":"center"},"fluid":false,"containerClasses":null},{"classes":["col-md-6","col-12"],"type":"text","data":{"header":"Two","text":"Second component text here","text_x":"center"},"fluid":false,"containerClasses":null},{"classes":["col-md-6","col-12"],"type":"text","data":{"header":"New","name":"text","text":"Content for new text component"},"fluid":false,"containerClasses":[]}]]}
+[
+  {
+    "id": "1",
+    "title": "Github Service | Arthrex",
+    "description": "A service for using github as a CMS repo.",
+    "rows": [
+      [
+        {
+          "type": "row_config",
+          "containerClasses": [],
+          "rowClasses": []
+        },
+        {
+          "type": "text",
+          "classes": ["col-md-6", "col-12"],
+          "data": {
+            "header": "One",
+            "text": "First componenet text here",
+            "text_x": "center",
+            "read_more": {
+              "router_link": "/read-more-router-link",
+              "text": "Read more"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "classes": ["col-md-6", "col-12"],
+          "data": {
+            "header": "Two",
+            "text": "Second component text here",
+            "text_x": "center"
+          }
+        }
+      ]
+    ]
+  }
+]
