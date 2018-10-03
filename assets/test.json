@@ -1,91 +1,39 @@
 [
-    {
-      "id": "1",
-      "title": "Github Service | Arthrex",
-      "description": "A service for using github as a CMS repo.",
-      "rows": [
-        [
-          {
-            "type": "row_config",
-            "containerClasses": ["mb-md-rowspace", "mb-6"]
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "4K IMAGING",
-              "text": "See how our imaging system delivers a new level of visualization and optimization to your surgical area.",
-              "link_url": "uhd4k-imaging-platform",
-              "image_url": "{{.S3Bucket}}/images/img-card-4k.jpg"
-            }
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "OR INTEGRATION",
-              "text": "Our complete line of electromechanical resection, radiofrequency ablation, fluid management devices, and battery-powered hand instruments helps meet all your arthroscopic needs.",
-              "link_url": "arthroscopy",
-              "image_url": "{{.S3Bucket}}/images/img-card-arthroscopy.jpg"
-            }
-          },
-          {
-            "type": "row_breaker",
-            "classes": ["d-none", "d-sm-block", "d-md-block", "d-lg-none"],
-            "data": {}
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "RIGID ENDOSCOPY",
-              "text": "Synergy has imaging and workflow management solutions for rigid endoscopy.",
-              "link_url": "rigid-endoscopy",
-              "image_url": "{{.S3Bucket}}/images/img-card-rigid-endoscopy.jpg"
-            }
-          },
-          {
-            "type": "row_breaker",
-            "classes": ["d-none", "d-lg-block"],
-            "data": {}
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "ARTHROSCOPY",
-              "text": "Real-time remote diagnosis ensures maximum reliability and OR utilization.",
-              "link_url": "service-and-support",
-              "image_url": "{{.S3Bucket}}/images/img-card-arthroscopy.jpg"
-            }
-          },
-          {
-            "type": "row_breaker",
-            "classes": ["d-none", "d-sm-block", "d-md-block", "d-lg-none"],
-            "data": {}
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "PATIENT ENGAGEMENT",
-              "text": "Our video and data integration solutions seamlessly integrate with your existing EHR and OR equipment.",
-              "link_url": "operating-room-integration",
-              "image_url": "{{.S3Bucket}}/images/img-card-patient.jpg"
-            }
-          },
-          {
-            "type": "push_topic_card",
-            "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
-            "data": {
-              "header": "SERVICE & SUPPORT",
-              "text": "Our surgeon-patient communication tools can help improve your patient's experience.",
-              "link_url": "patient-centered-care",
-              "image_url": "{{.S3Bucket}}/images/img-card-service.jpg"
-            }
+  {
+    "id": "1",
+    "title": "Github Service | Arthrex",
+    "description": "A service for using github as a CMS repo.",
+    "rows": [
+      [
+        {
+          "type": "row_config",
+          "containerClasses": ["mb-md-rowspace", "mb-6"]
+        },
+        {
+          "type": "text_card",
+          "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
+          "data": {
+            "header": "4K IMAGING",
+            "text": "See how our imaging system delivers a new level of visualization and optimization to your surgical area."
           }
-        ]
+        },
+        {
+          "type": "text_card",
+          "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
+          "data": {
+            "header": "OR INTEGRATION",
+            "text": "Our complete line of electromechanical resection, radiofrequency ablation, fluid management devices, and battery-powered hand instruments helps meet all your arthroscopic needs."
+          }
+        },
+        {
+          "type": "text_card",
+          "classes": ["col-12", "col-md", "m-md-3", "mb-3"],
+          "data": {
+            "header": "RIGID ENDOSCOPY",
+            "text": "Synergy has imaging and workflow management solutions for rigid endoscopy."
+          }
+        }
       ]
-    }
-  ]
-  
+    ]
+  }
+]
